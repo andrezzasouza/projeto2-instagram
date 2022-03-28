@@ -1,0 +1,435 @@
+body{
+    background-color: #e5e5e5;
+    font-family: 'Roboto';
+}
+
+.barra-topo{
+    background-color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    border: 1px solid #DBDBDB;
+    z-index: 1;
+    height: 54px;
+}
+
+.logo{
+    margin-left: 215px;
+    margin-top:13px;
+    font-size:22px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.barrinha{
+    height: 22px;
+    width: 1px;
+    background-color: #DBDBDB;
+}
+.pesquisa{
+    margin-top: 13px;
+    width: 215px;
+    height: 28px;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    background-color: #fafafa;
+    padding-top: 5px;
+    padding-left: 75px;
+    line-height: 14px;
+    color: #979797;
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.icones{
+    margin-right: 215px;
+    margin-top:13px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.conteudo{
+    width: 935px;
+    margin-left:215px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Stories*/
+
+.stories{
+    width: 614px;
+    height: 118px;
+    margin-top: 88px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    overflow: hidden;
+}
+
+.stories-page{
+    margin-left:15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 66px;
+    position: relative;
+}
+
+.stories-page img:nth-child(1){
+    margin-top: 13px;
+}
+
+.stories-page img:nth-child(2){
+    position: absolute;
+    margin-left: 5px;
+}
+.stories-page p:nth-child(3){
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    align-self:center;
+}
+.stories ion-icon{
+    position: absolute;
+    top:134px;
+    left: calc(50% + 120px);
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+/*Posts*/
+
+.post-1{
+    width: 614px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.barra-superior-1{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fafafa;
+    width: 614px;
+    height: 61px;
+}
+
+.icone-1{
+    margin-left:17px;
+}
+
+.escrito-1{
+    margin-left: 15px;
+}
+
+.pontinhos-1{
+    padding-left:450px;
+    box-sizing: border-box;
+}
+
+.foto-1{
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+}
+
+.barra-inferior-1{
+    font-size: 25px;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fafafa;
+    height: 76px;
+    width: 100%;
+}
+
+.icones-post-1{
+    display: flex;
+}
+.bookmark-1{
+    margin-left: 500px;
+}
+
+.curtidas-1{
+    margin-left: 17px;
+    display: flex;
+    justify-content: space-around;
+    width: 340px;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 13px;
+}
+
+.post-2{
+    width: 614px;
+    margin-bottom: 60px;
+}
+
+.barra-superior-2{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fafafa;
+    width: 614px;
+    height: 61px;
+}
+
+.icone-2{
+    margin-left:17px;
+}
+
+.escrito-2{
+    margin-left: 15px;
+}
+
+.pontinhos-2{
+    padding-left:460px;
+    box-sizing: border-box;
+}
+
+.foto-2{
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+}
+
+.barra-inferior-2{
+    font-size: 25px;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.icones-post-2{
+    display: flex;
+}
+.bookmark-2{
+    margin-left: 500px;
+}
+
+.curtidas-2{
+    margin-left: 17px;
+    display: flex;
+    justify-content: space-around;
+    width: 370px;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 13px;
+}
+
+.post-3{
+    width: 614px;
+}
+
+.barra-superior-3{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #fafafa;
+    width: 614px;
+    height: 61px;
+}
+
+.icone-3{
+    margin-left:17px;
+}
+
+.escrito-3{
+    margin-left: 15px;
+}
+
+.pontinhos-3{
+    padding-left:450px;
+    box-sizing: border-box;
+}
+
+.foto-3{
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+}
+
+
+
+/*Side Bar*/
+
+
+
+.side-bar{
+    background-color: #e5e5e5;
+    width: 293px;
+    position: absolute;
+    margin-left: 642px;
+}
+.catanacomics{
+    margin-top: 118px;
+    display: flex;
+}
+
+.escrito-catanacomics{
+    margin-left:17px;
+    margin-top: 11px;
+}
+.sugestoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.badvibesmemes{
+    display: flex;
+    height: 32px;
+    width: 293px;
+    margin-bottom: 17px;
+}
+.escrito-badvibesmemes{
+    margin-left: 11px;
+}
+.seguir-badvibesmemes{
+    padding-top: 8px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.chibirdart{
+    display: flex;
+    height: 32px;
+    width: 293px;
+    margin-bottom: 17px;
+}
+.escrito-chibirdart{
+    margin-left: 11px;
+}
+.seguir-chibirdart{
+    padding-top: 8px;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+.razoesparaacreditar{
+    display: flex;
+    height: 32px;
+    width: 293px;
+    margin-bottom: 17px;
+}
+.escrito-razoesparaacreditar{
+    margin-left: 11px;
+}
+.seguir-razoesparaacreditar{
+    padding-top: 8px;
+    padding-left: 85px;
+    box-sizing: border-box;
+}
+.adorableanimals{
+    display: flex;
+    height: 32px;
+    width: 293px;
+    margin-bottom: 17px;
+}
+.escrito-adorableanimals{
+    margin-left: 11px;
+}
+.seguir-adorableanimals{
+    padding-top: 8px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.smallcutecats{
+    display: flex;
+    height: 32px;
+    width: 293px;
+    margin-bottom: 17px;
+}
+.escrito-smallcutecats{
+    margin-left: 11px;
+}
+.seguir-smallcutecats{
+    padding-top: 8px;
+    padding-left: 120px;
+    box-sizing: border-box;
+}
+.copyright{
+    margin-top: 18px;
+}
+
+
+
+/*Fontes*/
+
+h1{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8e8e8e;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8e8e8e;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}
+
+h6{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8e8e8e;
+}
+
+h7{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+}
+
+h8{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12.89px;
+    color: #c7c7c7;
+}
+
+h9{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;   
+}
